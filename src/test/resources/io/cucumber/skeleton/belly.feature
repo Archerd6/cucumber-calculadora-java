@@ -1,9 +1,5 @@
-Feature: Belly
+Feature: TestGlobal
 
-  Scenario: a few cukes
-    Given I have 42 cukes in my belly
-    When I wait 1 hour
-    Then my belly should growl
 
    Scenario Outline: SumaOk
     Given I have a Calculator
