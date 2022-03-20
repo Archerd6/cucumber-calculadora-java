@@ -39,6 +39,6 @@ Estructura:\
 
 - *Primo*: Contiene pruebas del método Calculadora.esPrimo()    &nbsp; &nbsp; &nbsp;    **Escenario**\
 Estructura:\
-    Given I have a Calculator
-    When I ask if 7542 is prime
+    Given I have a Calculator\
+    When I ask if 7542 is prime\
     Then the result boolean as int is 0
