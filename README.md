@@ -10,31 +10,31 @@ Estructura:\
    Scenario Outline: Suma\
    Given I have a Calculator\
    When I sum <a> and <b>\
-   Then the result is <value>\
+   Then the result is <value>
 
 - *Resta*: Contiene pruebas del método Calculadora.resta()    &nbsp; &nbsp; &nbsp;    **Escenario**\
 Estructura:\
    Scenario: Resta\
    Given I have a Calculator\
    When I substract 88 value 8\
-   Then the result is 80\
+   Then the result is 80
 
 - *Multiplicacion*: Contiene pruebas del método Calculadora.mult()    &nbsp; &nbsp; &nbsp;    **Escenario**\
 Estructura:\
     Given I have a Calculator\
     When I multiply 88 value 8\
-    Then the result is 704\
+    Then the result is 704
 
 - *Division*: Contiene pruebas del método Calculadora.divide()    &nbsp; &nbsp; &nbsp;    **Escenario**\
 Estructura:\
-    Given I have a Calculator
-    When I divide 88 value 8
+    Given I have a Calculator\
+    When I divide 88 value 8\
     Then the result is 11
 
 - *Factorial*: Contiene pruebas del método Calculadora.fact()    &nbsp; &nbsp; &nbsp;    **Escenario**\
 Estructura:\
-    Given I have a Calculator
-    When I select the factorial of 3
+    Given I have a Calculator\
+    When I select the factorial of 3\
     Then the result is 6
 
 - *Primo*: Contiene pruebas del método Calculadora.esPrimo()    &nbsp; &nbsp; &nbsp;    **Escenario**\
