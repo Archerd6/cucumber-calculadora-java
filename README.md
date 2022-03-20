@@ -4,7 +4,7 @@ Proyecto de calculadora - Especificación de pruebas usando Cucumber y Gherkin
 
 ### *Test.feature* contiene todas las pruebas como distintos scenarios
 
-- *Scenario Outline: Suma*: Contiene pruebas del método Calculadora.suma\
+- *Suma*: Contiene pruebas del método Calculadora.suma() **Escenario Outline**\
 Estructura:\
    Scenario Outline: Suma\
    Given I have a Calculator\
